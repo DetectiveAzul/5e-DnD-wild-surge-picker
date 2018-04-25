@@ -11,7 +11,6 @@ import com.example.detectiveazul.wildsurge.model.Randomizer;
 
 public class WildSurgeActivity extends AppCompatActivity {
     private TextView wildSurgeTextView;
-    private Button rollWildSurge;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,7 +18,6 @@ public class WildSurgeActivity extends AppCompatActivity {
         setContentView(R.layout.activity_wild_surge);
 
         this.wildSurgeTextView = findViewById(R.id.wildSurgeTextViewID);
-        this.rollWildSurge = findViewById(R.id.rollButtonID);
     }
 
     public void onRollButtonClicked(View view) {
